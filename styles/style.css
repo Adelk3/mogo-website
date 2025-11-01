@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    margin: 0 auto;
+    width:1200px ;
+}
+
+.header-box{
+    
+    padding-top: 17px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 632px; */
+}
+.header-list{
+display: flex;
+flex-direction: row;
+gap: 55px;
+}
+
+.logo{
+    color:#95E1D3 ;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-size: 30px;
+}
+
+.header-link{
+    font-size: 14px;
+    font-weight: 400;
+    color: #95E1D3;
+}
+
+
+.header-link:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: #F38181;
+}
+
+ .title-one{
+font-family: Kaushan Script;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+}
+
+.title-two{
+font-weight: 700;
+font-size: 30px;
+text-align: center;
+}
+
+.container-two{
+    width: 1168px; ;
+    margin: 0 auto;
+    
+} 
+
+.big-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+
+ .small-box{
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+    width: 330px;
+    height: auto;
+
+
+
+}
+.smaller-box{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}   
+
+.smaller-box p{
+    margin: 0 auto;
+    font-size: 15px;
+    color: grey;
+}
+
+.container-three{
+    width: 1104px;
+    margin: 0 auto;
+}
+
+.text-lorem{
+    text-align: center;
+}
+
+
+.name{
+    
+font-weight: 400;
+font-size: 14px;
+
+
+}
+
+.thing{
+    
+font-weight: 300;
+font-size: 15px;
+color:#B6B6B6 ;
+}
+
+.portfolio-list{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.button{
+ width: 150;
+height: 40;
+padding: 16px 8px ;
+   background-color: #95E1D3;
+   color:white ;
+   border: none;
+}
+
+input{
+     width: 150;
+height: 40;
+padding: 16px 8px ;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     margin: 0 auto;
+    width:1200px ;
+}
