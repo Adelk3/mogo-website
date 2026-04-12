@@ -168,7 +168,6 @@ body {
 .team__overlay {
   position: relative;
   overflow: hidden;
-  opacity: 1;
 }
 .team__overlay::after {
   content: "";
@@ -177,9 +176,9 @@ body {
   display: block;
   background: linear-gradient(135deg, rgba(255, 120, 120, 0.6), rgba(255, 200, 120, 0.6));
   transform: translate(-8px, -480px);
-  transform: rotateZ(180px);
   transition: 2s;
   overflow: hidden;
+  position: absolute;
 }
 .team__item:hover .team__overlay::after {
   opacity: 1;
