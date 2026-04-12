@@ -1,0 +1,54 @@
+.header {
+  padding: 17px 0 12px 0;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+  }
+
+  &__logo {
+    color: $main-color;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  &__link {
+    font-size: 14px;
+    color: $main-color;
+
+    &:hover {
+      transition: 1s;
+      color: $main-add-color;
+    }
+
+    &:hover::after {
+      content: "";
+      background-color: $main-add-color;
+      position: absolute;
+      display: block;
+      width: 100%;
+      bottom: 10px;
+      left: 0px;
+      bottom: 0px;
+      height: 3px;
+      transition: 10s;
+    }
+  }
+
+  &__item {
+    position: relative;
+    overflow: hidden;
+    height: 20px;
+  }
+}

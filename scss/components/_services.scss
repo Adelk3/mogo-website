@@ -1,0 +1,47 @@
+
+.services {
+  padding: 68px 0 100px 0;
+
+&__name {
+  color: $title-color;
+}
+
+
+&__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  column-gap: 70px;
+}
+
+&__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-basis: calc((100% - 140px) / 3);
+  height: auto;
+}
+&__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+&__text {
+  margin: 0 auto;
+  font-size: 15px;
+  color: grey;
+}
+
+
+&__icons {
+  fill: $main-color;
+  width: 37px;
+  height: 37px;
+  flex-shrink: 0;
+}
+
+}
+
+

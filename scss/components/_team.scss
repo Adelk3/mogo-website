@@ -1,0 +1,106 @@
+.team {
+  padding-bottom: 81px;
+
+
+&__overlay {
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+
+  &::after {
+  content: "";
+    width: 380px;
+  height: 470px;
+  display: block;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 120, 120, 0.6),
+    rgba(255, 200, 120, 0.6)
+  );
+  transform: translate(-8px, -480px);
+  transform: rotateZ(180px);
+  transition: 2s;
+  overflow: hidden;
+}
+}
+
+&__item:hover .team__overlay::after{
+opacity: 1;
+}
+
+&__item-icons {
+  position: relative;
+  fill: rgb(252, 202, 210);
+  background-color: rgb(245, 130, 149);
+  width: 40px;
+  height: 40px;
+
+  padding: 5px;
+}
+
+&__list-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 70px;
+  top: 50%;
+z-index: 5;
+}
+
+&__icon {
+  width: 30px;
+  height: 30px;
+
+
+&__::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  fill: pink;
+  transform: translate(-8px, -480px);
+  transform: rotateZ(180px);
+  transition: 2s;
+  opacity: 0;
+  z-index: 4;
+}
+
+}
+ 
+
+
+
+&__list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+
+
+&__text {
+  text-align: center;
+  padding-bottom: 27px;
+}
+
+&__name {
+  font-weight: 400;
+  font-size: 14px;
+  color: $title-color;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+&__job {
+  font-weight: 300;
+  font-size: 15px;
+  color: #b6b6b6;
+  text-align: center;
+}
+
+}

@@ -1,0 +1,26 @@
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: $title-color;
+  padding-bottom: 65px;
+
+  &::after {
+    content: "";
+    display: block;
+
+    height: 4px;
+    width: 60px;
+
+    margin: 40px auto 0;
+    background-color: $main-add-color;
+  }
+
+  &--team {
+    padding-bottom: 45px;
+
+    &::after {
+      margin-top: 36px;
+    }
+  }
+}
